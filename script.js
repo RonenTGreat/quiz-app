@@ -41,6 +41,46 @@ const quizData = [
     d: "Smile",
     correct: "b",
   },
+  {
+    question: "Coprastastaphobia is the fear of what",
+    a: "Cops",
+    b: "Constipation",
+    c: "Constants",
+    d: "Cats",
+    correct: "b",
+  },
+  {
+    question: "What were the first ice hockey pucks made out of?",
+    a: "Frozen cow dung",
+    b: "Bones",
+    c: "Ice",
+    d: "Wood",
+    correct: "a",
+  },
+  {
+    question: "It's illegal in Texas to put what on your neighbour’s Cow?",
+    a: "Perfumes",
+    b: "Oil",
+    c: "Toilet paper",
+    d: "Grafitti",
+    correct: "d",
+  },
+  {
+    question: "Which bird is nicknamed The Laughing Jackass?",
+    a: "Kookaburra",
+    b: "Parrot",
+    c: "Cock",
+    d: "Flamingo",
+    correct: "a",
+  },
+  {
+    question: "Who entered a contest to find his own look-alike and came 3rd?",
+    a: "Chris Rock",
+    b: "Jackie Chan",
+    c: "Charlie Chaplin",
+    d: "Mr.Bean",
+    correct: "c",
+  },
 ];
 
 const answerElements = document.querySelectorAll(".answer");
