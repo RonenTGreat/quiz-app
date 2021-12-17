@@ -81,6 +81,50 @@ const quizData = [
     d: "Mr.Bean",
     correct: "c",
   },
+  {
+    question: "French artist Aquabouse paints cows with what material?",
+    a: "Cow dung",
+    b: "Cow urine",
+    c: "Cow blood",
+    d: "None of the above",
+    correct: "a",
+  },
+  {
+    question:
+      " In 1978 an Iowa judge dismissed a drink driving charge for what obscure reason?",
+    a: "Forced smapling",
+    b: "Too sleepy to sample",
+    c: "Crying too much to sample",
+    d: "Too drunk to sample",
+    correct: "d",
+  },
+  {
+    question:
+      "In which country are there six villages called Silly, 12 called Billy, and two called Pratt?",
+    a: "England",
+    b: "France",
+    c: "Germany",
+    d: "South Africa",
+    correct: "b",
+  },
+  {
+    question:
+      "Native to the Caribbean, what sort of animal is the mountain chicken?",
+    a: "Pig",
+    b: "Eagle",
+    c: "Frog",
+    d: "Ant",
+    correct: "c",
+  },
+  {
+    question:
+      "The UK's Dyslexia Research Trust is based in which British city?",
+    a: "Reading",
+    b: "Liverpool",
+    c: "London",
+    d: "Manchester",
+    correct: "a",
+  },
 ];
 
 const answerElements = document.querySelectorAll(".answer");
@@ -120,7 +164,6 @@ function getSelected() {
 }
 
 function deselectAnswers() {
-  
   answerElements.forEach((answerElement) => {
     answerElement.checked = false;
   });
@@ -139,7 +182,7 @@ submitBtn.addEventListener("click", () => {
       loadQuiz();
     } else {
       quiz.innerHTML = `<h2>You answered correctly ${score}/${quizData.length} questions</h2>
-      <button onclick="location.reload()">Try Again</button>`
+      <button onclick="location.reload()">Try Again</button>`;
     }
   }
 });
